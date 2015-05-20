@@ -1,0 +1,14 @@
+.fbprefs
+.project
+.settings
+.classpath
+target
+bin
+.DS_Store
+tmpdir
+.idea
+*.iml
+.clover
+.cache
+search.lucene
+
