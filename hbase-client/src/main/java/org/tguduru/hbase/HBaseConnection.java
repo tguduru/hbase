@@ -8,6 +8,7 @@ import org.apache.hadoop.hbase.client.Table;
 import java.io.IOException;
 
 /**
+ * Provides a {@link Connection} to HBase.
  * @author Guduru, Thirupathi Reddy
  * @modified 1/26/16
  */
