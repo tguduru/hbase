@@ -15,9 +15,9 @@ import java.io.IOException;
 public class HBaseConnection {
     private final Table table;
 
-    public HBaseConnection() throws IOException {
+    public HBaseConnection(final String tableNameString) throws IOException {
         final Connection connection = ConnectionFactory.createConnection();
-        final TableName tableName = TableName.valueOf("user");
+        final TableName tableName = TableName.valueOf(tableNameString);
         table = connection.getTable(tableName);
     }
 
